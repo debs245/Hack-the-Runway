@@ -1,4 +1,58 @@
 html, body {
   height: 100%;
   width: 100%;
+  margin: 0; 
+  padding: 0; 
+  background-image: url("https://img.freepik.com/free-vector/potted-plant-doodle-vector-background_53876-126321.jpg?w=2000"); 
 }
+.nav {
+  display: flex; 
+  justify-content: space-evenly;
+  background-color: #BFD8BD;
+  height: 50px;
+  align-items: center;
+  padding: 0; 
+  margin: 0;
+  width: 100%; 
+}
+.brand, .donation, .more, .facts {
+  text-decoration: none;
+  padding: 10px; 
+  color: #111813;
+  font-size: 14px;
+}
+.headerTitle {
+  text-align: center; 
+  display: inline; 
+  font-size: 14px;
+  margin-top: 4px; 
+  color: #111813;
+  text-decoration: none;
+}
+.intro {
+  text-align: center;
+  margin: auto;
+  margin-top: 70px; 
+  padding: auto;
+  width: 700px;
+}
+.desc {
+  text-align: center;
+  width: 600px;
+  margin: auto; 
+  margin-bottom: 15px; 
+  padding: auto; 
+  font-size: 18px;
+  
+}
+.welcome {
+  text-decoration: underline;
+  padding-top: 10px; 
+}
+.lo {
+  border: solid 3px black; 
+  margin-top: 40px; 
+  padding: 20px; 
+  background-color: #FAFAF0; 
+}
+
