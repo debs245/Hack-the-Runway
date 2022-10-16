@@ -1,0 +1,54 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #FAFAF0;
+}
+.nav {
+  display: flex; 
+  justify-content: space-evenly;
+  background-color: #BFD8BD;
+  height: 50px;
+  align-items: center;
+  padding: 0; 
+  margin: 0;
+  width: 100%; 
+}
+.brand, .donation, .more, .facts {
+  text-decoration: none;
+  padding: 10px; 
+  color: #111813;
+  font-size: 14px;
+}
+.headerTitle {
+  text-align: center; 
+  display: inline; 
+  font-size: 14px;
+  margin-top: 4px; 
+  color: #111813;
+  text-decoration: none;
+}
+
+.start {
+  text-align: center; 
+}
+
+#search {
+  margin-left: 550px; 
+  margin-bottom: 20px;
+  
+}
+
+.moon {
+text-decoration: none;  
+  display: block;
+  color: black;
+  font-size: 20px; 
+}
+#stores {
+  margin-left: 500px; 
+  
+}
+
+p {
+  text-align: center;
+}

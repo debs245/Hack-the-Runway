@@ -56,3 +56,25 @@ html, body {
   background-color: #FAFAF0; 
 }
 
+.name, .rating, .warning {
+  text-align: center;
+  
+}
+
+.name {
+  margin-top: 30px; 
+}
+.rating, .warning {
+  font-size: 18px;
+  margin-top: 20px; 
+}
+
+button {
+  margin-left: 500px;  
+  margin-top: 20px; 
+}
+
+.warning {
+  width: 60%; 
+  margin-left: 250px; 
+}

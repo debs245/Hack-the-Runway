@@ -9,16 +9,61 @@
 </head>
 
 <body>
-   <header class="nav">
+  <header class="nav">
     <div class="links">
     <a class="brand" href="brand.html">Brand Search</a>
       <a class="donation" href="donation.html">Donate and Volunteer</a>
-      <a class="facts" href="facts.html">Learn about Fast Fashion</a>
-       <a class="more" href="more.html">More Ways to Help</a>
     </div>
+    
     <a class="headerTitle" href="index.html">FashionForward</a>
+    <div class="linkss">
+      <a class="facts" href="facts.html">Learn about Fast Fashion</a>
+      
+    </div>
   </header>
-  <script src="script.js"></script>
+  <h2>Learn some shocking facts about the fast fashion industry!</h2>
+  <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width slides/quotes -->
+  <div class="mySlides">
+    <p>“93% of brands surveyed by the Fashion Checker aren’t paying garment workers a living wage."</p>
+    <p class="author">- Fashion Checker, 2020</p>
+  </div>
+
+  <div class="mySlides">
+    <p>"More than $500 billion of value is lost every year due to clothing underutilization and the lack of recycling, according to the Ellen MacArthur Foundation."</p>
+    <p class="author">- trvst.world</p>
+  </div>
+
+  <div class="mySlides">
+    <p>"Fast fashion companies generate more pollution than international aviation and shipping combined."</p>
+    <p class="author">- Earth.org</p>
+  </div>
+
+   <div class="mySlides">
+    <p>"The global fast fashion industry is responsible for 10% of the world’s greenhouse gas emissions, according to the United Nations."</p>
+    <p class="author">- panaprium.com</p>
+  </div>
+
+   <div class="mySlides">
+    <p>"Three out of five fast fashion garments end up in a landfill within a year of purchase."</p>
+    <p class="author">- wearzeitgeist.com</p>
+  </div>
+  <!-- Next/prev buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- Dots/bullets/indicators -->
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+  <script src="facts.js"></script>
 
  <!--
   This script places a badge on your repl's full-browser view back to your repl's cover
